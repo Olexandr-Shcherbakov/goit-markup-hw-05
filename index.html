@@ -297,5 +297,74 @@
     </div>
     </div>
    </footer>
+   <div class="backdrop is-open">
+    <div class="modal">
+        <button class="modal-close"><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_297024_946)">
+              <path d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z" fill="#2E2F42" />
+            </g>
+            <defs>
+              <clipPath id="clip0_297024_946">
+                <rect width="8" height="8" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        <svg class="ikonclose" width="24" height="24" viewbox=" 0 0 24 24" fill="none"><use 
+            href="./images/icons.svg#icon-close-black-18dp-2-1-2"></use></svg>    
+        </button>
+        <h3 class="h3modal">Leave your contacts and we will call you back</h3>
+        <form name="user_form">
+        <label for="form-username" class="lebmod">Name</label>
+        <div class="relative" >
+            <svg width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person-black-18dp-1-2"></use>
+            </svg>
+            <input type="text"
+             id="form-username"
+             name="user_name"
+             class="inpmod"
+             >  
+        </div>  
+        <label for="form-usernumber" class="lebmod">Phone</label>
+        <div class="relative" >
+            <svg width="18px" height="24px">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1-1"></use>
+            </svg>
+            <input type="number"
+             id="form-usernumber"
+             name="user_number"
+             class="inpmod">  
+        </div>  
+        <label for="form-useremail" class="lebmod">Email</label>
+        <div class="relative">
+            <svg width="18px" height="24px">
+                <use href="./images/icons.svg#icon-email-black-18dp-1-1"></use>
+            </svg>
+            <input type="email"
+             id="form-useremail"
+             name="user_email"
+             class="inpmod">  
+        </div>
+        <label for="form-usercomment" class="lebmod">Comment</label>
+        <div class="relative">
+            <textarea 
+             name="user_comment"
+             id="form-usercomment"
+             placeholder="Text input"
+             class="comment">
+            </textarea>
+        </div>
+        <div class="privatcl">
+         <input type="checkbox" name="form_privacy" id="user_comment">
+         <label for="user_comment" class="userpriv">I accept the terms and conditions of the 
+            <a href="#" class="accent"> Privacy Policy </a>
+        </label>   
+        </div>
+        
+        <button type="submit" class="buttonmodal">Send</button>
+        </form>
+       </div>     
+   </div> 
+   
 </body>
 </html>
