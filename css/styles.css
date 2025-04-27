@@ -324,19 +324,19 @@
     transform: translate(-50% , -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     padding: 72px 24px 24px 24px;  }
+    .modal-button:focus .ikonclose{fill:#ffffff;}
+    .inpmod:focus .ikonclose{fill:#4d5ae5;}
     .backdrop:not(.is-open) .modal{ transform: translate(-50% , -50%) scale(1.5);}
 
     .ikonclose{transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     .ikonclose:hover,
-    .ikonclose:focus{background-color: #404bbf;
-        border: none;
+    .ikonclose:focus{
         fill: #ffffff ;}
     .boofoot{fill: #ffffff;}
 
     .iconbutt{fill:#2E2F42;}
     .iconbutt:hover,   
-    .iconbutt:focus{background-color: #404bbf;
-        border: none; fill: #ffffff} 
+    .iconbutt:focus{ fill: #ffffff} 
 
     .ikonmode{transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
@@ -364,7 +364,7 @@
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .modal-close:hover{background-color: #404bbf;
+    .modal-close:hover{fill: #ffffff ; background-color: #404bbf;
         border: none;}
     .modal-close:focus{fill: #ffffff ;background-color: #404bbf;
         border: none;}
@@ -398,7 +398,7 @@
         outline: transparent;
         transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         } 
-    .inpmod:focus{border-color: #4D5AE5;
+    .inpmod:focus.ikonmode{border-color: #4D5AE5;
         fill: #4D5AE5;  }    
     .inpikon{position: relative;}
     .comment{border: 1px solid rgba(46, 47, 66, 0.4);
@@ -418,7 +418,8 @@
         padding: 8px 16px;
         outline: transparent;
         }
-
+    .checkbox:checked .accent{background-color:#404bbf ;
+    border: none; fill: #f4f4fd;}
        
 
     .comment:focus{ border-color: #4D5AE5; }    
@@ -443,8 +444,8 @@
     .accent{line-height: 1.33;
         text-decoration: underline;
         text-decoration-skip-ink: none;
-        
-       
+        width:16px;
+        height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 2px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -455,7 +456,10 @@
         justify-content: center;
         fill: transparent;
         }
-    .postfote{color: #4d5ae5;display: flex;gap: 10px;}    
+    .postfote{color: inherit; display: flex;gap: 10px;}
+    
+    .postfote:hover,
+    .postfote:focus{color: #4d5ae5;}
     .privatc{ margin-left: 24px;
         margin-bottom: 24px;
         } 
