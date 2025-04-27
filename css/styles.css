@@ -331,7 +331,9 @@
     .ikonclose:focus{background-color: #404bbf;
         border: none;
         fill: #ffffff ;}
-     
+    .boofoot{fill: #ffffff;}
+
+    .iconbutt{fill:#2E2F42;}
     .iconbutt:hover,   
     .iconbutt:focus{ fill: #ffffff} 
 
@@ -366,7 +368,7 @@
     .modal-close:focus{fill: #ffffff ;background-color: #404bbf;
         border: none;}
     
-    .hpmodal{margin-top: 72px;
+    .hpmodal{
         margin-bottom: 16px;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -378,7 +380,7 @@
     
     .modpos{border-radius: 50%;}    
     .relative{fill:#2e2f42; stroke: black; margin-bottom: 8px;}
-    .lebmod{margin-left: 24px;
+    .lebmod{
         font-weight: 400;
         font-size: 12px; 
         line-height: 1.17;
@@ -410,7 +412,7 @@
         resize: none;
         transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
         height: 120px;
-        margin-left: 24px;
+        
         margin-bottom: 4px;
         padding: 8px 16px;
         outline: transparent;
@@ -453,10 +455,10 @@
         justify-content: center;
         fill: transparent;
         }
-    .postfote{color: #4d5ae5;}    
-    .privatcl{
-        margin-left: 24px;
-        margin-bottom: 24px;} 
+    .postfote{color: #4d5ae5;display: flex;gap: 10px;}    
+    .privatc{ margin-left: 24px;
+        margin-bottom: 24px;
+        } 
     .parfot{margin-bottom: 16px;
        font-weight: 500;
        font-size: 16px;
