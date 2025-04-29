@@ -366,8 +366,7 @@
 
     .modal-close:hover{fill: #ffffff ; background-color: #404bbf;
         border: none;}
-    .modal-close:focus{fill: #ffffff ; background-color: #404bbf;
-        border: none;}
+    .modal-close:focus{fill: #ffffff ;}
     
     .hpmodal{
         margin-bottom: 16px;
@@ -398,8 +397,9 @@
         outline: transparent;
         transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         } 
+         
     .inpmod:focus{border-color: #4D5AE5;}    
-    .inpmod:focus.ikonmode{fill: #4D5AE5;  }    
+    .inpmod:focus .ikonmode{fill: #4D5AE5; }    
     .inpikon{position: relative;}
     .comment{border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 4px;
@@ -424,7 +424,10 @@
 
     .comment:focus{ border-color: #4D5AE5; }    
     .relativecomm{margin-bottom: 16px;}   
-    .userpriv{font-family: "Roboto", sans-serif;
+    .userpriv{
+        display: flex;align-items: center;
+        justify-content: center;
+        font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
@@ -441,7 +444,9 @@
         align-items: center;
         justify-content: center;
         fill: transparent;}    
-    .accent{line-height: 1.33;
+    .accent{
+        margin-right: 8px;
+        line-height: 1.33;
         text-decoration: underline;
         text-decoration-skip-ink: none;
         width:16px;
@@ -462,7 +467,7 @@
     
     .postfote:hover,
     .postfote:focus{color: #4d5ae5;}
-    .privatc{ margin-left: 24px;
+    .privatc{display: flex;align-items: center;
         margin-bottom: 24px;
         } 
     .parfot{margin-bottom: 16px;
