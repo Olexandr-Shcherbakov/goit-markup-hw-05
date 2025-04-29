@@ -366,7 +366,7 @@
 
     .modal-close:hover{fill: #ffffff ; background-color: #404bbf;
         border: none;}
-    .modal-close:focus{fill: #ffffff ;}
+    .modal-close:focus{fill: #ffffff; background-color: #404bbf; border: none;}
     
     .hpmodal{
         margin-bottom: 16px;
