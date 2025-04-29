@@ -328,13 +328,11 @@
     .inpmod:focus .ikonclose{fill:#4d5ae5;}
     .backdrop:not(.is-open) .modal{ transform: translate(-50% , -50%) scale(1.5);}
 
-    .ikonclose{transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    .ikonclose{transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); fill:#2E2F42;}
    
     .boofoot{fill: #ffffff;}
 
-    .iconbutt{fill:#2E2F42;  fill:#2E2F42; }
-    .iconbutt:hover,   
-    .iconbutt:focus{ fill: #ffffff} 
+   
 
     .ikonmode{transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
@@ -361,8 +359,8 @@
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .modal-close:hover{fill: #ffffff;background-color: #404bbf;border: none;}
-    .modal-close:focus{fill: #ffffff;background-color: #404bbf;border: none;}
+    .modal-close:hover{background-color: #404bbf;border: none;}
+    .modal-close:focus{background-color: #404bbf;border: none;}
 
     
     button:hover>svg,
