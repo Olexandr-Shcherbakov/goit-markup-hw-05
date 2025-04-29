@@ -329,12 +329,10 @@
     .backdrop:not(.is-open) .modal{ transform: translate(-50% , -50%) scale(1.5);}
 
     .ikonclose{transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-    .ikonclose:hover,
-    .ikonclose:focus{
-        fill: #ffffff ;}
+   
     .boofoot{fill: #ffffff;}
 
-    .iconbutt{fill:#2E2F42;}
+    .iconbutt{fill:#2E2F42;  fill:#2E2F42; }
     .iconbutt:hover,   
     .iconbutt:focus{ fill: #ffffff} 
 
@@ -367,12 +365,13 @@
     .modal-close:focus{fill: #ffffff;background-color: #404bbf;border: none;}
 
     
-
     button:hover>svg,
     button:focus>svg{fill: #ffffff;border: none; }
     input:focus+svg{fill: #4d5ae5;}
     input:checked+label>span{background-color: #404bbf;
     border: none; fill: #f4f4fd;}
+
+
     .hpmodal{
         margin-bottom: 16px;
         font-family: "Roboto", sans-serif;
